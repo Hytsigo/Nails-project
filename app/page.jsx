@@ -1,3 +1,8 @@
 export default function HomePage() {
-  return <h1>Hola Juancho</h1>;
+  return (
+    <section>
+      <h1>Hola Juancho</h1>
+      <button>Click</button>
+    </section>
+  );
 }
