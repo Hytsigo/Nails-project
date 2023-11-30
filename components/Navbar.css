@@ -1,0 +1,17 @@
+.navbar {
+  background: rgb(159, 98, 213);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+  align-items: center;
+  border-radius: 30rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar ul li {
+  list-style: none;
+}

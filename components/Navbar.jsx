@@ -1,14 +1,17 @@
 import Link from "next/link";
+import "./Navbar.css";
 
 export default function Navbar() {
   return (
-    <nav>
-      <h1>Navbar</h1>
+    <nav className="navbar">
+      <Link href="/">
+        <h1>Home</h1>
+      </Link>
 
       <ul>
-        <li>
+        {/* <li>
           <Link href="/">Home</Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/about">About</Link>
         </li>
@@ -20,6 +23,9 @@ export default function Navbar() {
         </li>
         <li>
           <Link href="/blog">Blog</Link>
+        </li>
+        <li>
+          <Link href="/posts">Posts</Link>
         </li>
       </ul>
     </nav>
